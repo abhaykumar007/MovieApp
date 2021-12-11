@@ -7,7 +7,7 @@ function App() {
   const [movieList, setMovieList] = useState(data);
   const [favoriteList, setFavoriteList] = useState([]);
   const [isFavTab, setFavTab] = useState(false);
-  // console.log(movieList);
+
   function handelFavOnClick(movie) {
     setFavoriteList((prevState) => [...prevState, movie]);
   }

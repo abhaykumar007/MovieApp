@@ -2,8 +2,7 @@ import React, { useState } from "react";
 
 export default function MovieCard(props) {
   const { movie, handelFavOnClick, handelRemoveFavOnClick, favorite } = props;
-  //   console.log("Movie", movie);
-  // console.log(favorite);
+
   return (
     <div className="movie-card">
       <div className="left">
